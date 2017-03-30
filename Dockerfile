@@ -21,7 +21,6 @@ RUN chmod +x /conf-copy/start.sh
 WORKDIR /
 VOLUME ["/data"]
 VOLUME ["/conf"]
-VOLUME ["/tempdata"]
 EXPOSE 6800
 EXPOSE 80
 EXPOSE 8080
